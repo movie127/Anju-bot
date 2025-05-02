@@ -3,14 +3,11 @@ const packageJson = require("./package.json"); // Get package details
 
 module.exports = {
   BOTNAME: "© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚",
-  OWNERNAME: "MR.RASHMIKA",
-  OWNERNUMBER: "94717775628",
+  OWNERNAME: "MR.Kavindu",
+  OWNERNUMBER: "94760595208",
   FOOTER: `
-> QUEEN ANJU XPRO
-> Developed by Mr. Rashmika
-> GitHub Repository: github.com/Mrrashmika/QUEEN_ANJU_xPro
-Premium Version | Advanced Features | Secure & Reliable
-2025 QUEEN ANJU XPRO. All rights reserved.
+> 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬
+> Developed by Mr. Kavindu 
     `.trim(),
   //====================menu=================================
   MENUMSG: function (pushname, runtime, config) {
@@ -44,7 +41,7 @@ Premium Version | Advanced Features | Secure & Reliable
     )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
 > Qᴜᴇᴇɴ ᴀɴᴊᴜ ᴍᴅ ᴄᴛᴇᴀᴛᴇ ʙʏ ᴍʀ ʀᴀꜱʜᴍɪᴋᴀ .....
-> © 𝐌𝐑 𝐑𝐀𝐒𝐇𝐌𝐈𝐊𝐀 𝐎𝐅𝐂 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
+> © 𝐌𝐑 𝗞𝗔𝗩𝗜𝗡𝗗𝗨 𝐎𝐅𝐂 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
         `.trim();
   },
   REACTMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗥𝗘𝗔𝗖𝗧𝗜𝗢𝗡 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
@@ -154,7 +151,7 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
@@ -165,7 +162,7 @@ Twitter URL: ${q}
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
        
@@ -178,7 +175,7 @@ Twitter URL: ${q}
   },
   CINETVSHOW: function (movieResponse) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
@@ -187,7 +184,7 @@ Twitter URL: ${q}
   },
   CINETVSHOWALLDL: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
@@ -196,14 +193,14 @@ Twitter URL: ${q}
   },
   SIMNHALAMOVIE: function (title) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
         `.trim();
   },
   AWAMOVIE: function (title, releaseDate, country) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${releaseDate}  
@@ -212,7 +209,7 @@ Twitter URL: ${q}
   },
   ANIMEMOVIE: function (title, releaseDate, country, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 ✨ ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${releaseDate}  
@@ -222,7 +219,7 @@ Twitter URL: ${q}
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:*  ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
@@ -232,7 +229,7 @@ Twitter URL: ${q}
   },
   ADULTMOVIE: function (title, rating, description) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿
 ──────────────────
 ✨ *Title:* ${title}
 ⭐ *Rating:* ${rating}
@@ -245,7 +242,7 @@ ${description}
   },
   ANIMOMOVIE: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿  
         
 ✨ ${movieData.title}  
 ⭐ Description:${movieData.description} 
@@ -255,7 +252,7 @@ ${description}
   },
   FILMPOMOVIE: function (title, rating, year, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
+🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿  
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating}
@@ -263,7 +260,7 @@ ${description}
 ⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${duration}
         `.trim();
   },
-  MVINFOCAPTION: "🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿\n\n",
+  MVINFOCAPTION: "🎬 *『 🇱🇰 𝙲𝙸𝙽𝙴𝙼𝙰𝚇 𝙷𝙳...🎬 』* 🍿\n\n",
   //=====================youtube===========================================
   SONG: function (data) {
     return `
